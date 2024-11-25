@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction</title>
+    <style>
+      * {
+        font-size: 25px;
+      }
+      .pDiv {
+        background-color: rgb(166, 171, 169);
+      }
+      .myPhoto {
+        /* These 3 properties are important */
+        display: flex;
+        /* Aligns on x-axis */
+        justify-content: center;
+        align-items: center;
+      }
+      img.project {
+        height: 200px;
+        width: 200px;
+      }
+      .myClass {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      img.project {
+        border-radius: 40px;
+      }
+    </style>
+  </head>
+  <body bgcolor="skyblue">
+    <div id="home" style="background-color: rgb(24, 30, 24)" class="myClass">
+      <a href="#home">Home&nbsp;</a>
+      <a href="#intro">Introduction&nbsp;</a>
+      <a href="#projects">Projects&nbsp;</a>
+      <a href="form.html" target="_blank">Contact Us&nbsp;</a>
+    </div>
+    <br />
+
+    <div id="intro" style="border: 1px solid black" class="pDiv">
+      <p>
+        <span style="background-color: rgb(205, 189, 192)">Introduction:</span>
+      </p>
+      <div class="myPhoto">
+        <img
+          class="center"
+          src="photo.jpg"
+          height="100px"
+          width="100px"
+          style="border-radius: 50px"
+        />
+      </div>
+      <br />
+      <div class="myClass">
+        <p>
+          Hello! I am Sarthak Ghimire. I am currently pusruing my Bachelor's
+          degree in Computer Science and Information Technology (BSc. CSIT) at
+          Bhaktapur Multiple Campus.
+        </p>
+      </div>
+    </div>
+    <br />
+
+    <div id="projects" style="border: 1px solid black" class="pDiv">
+      <p><span style="background-color: pink">Projects:</span></p>
+      <br />
+      <div class="myClass">
+        <img src="tetris.png" class="project" />
+        <img src="crossword.png" class="project" />
+        <img src="wordle.png" class="project" />
+        <img src="sudoku.jpg" class="project" />
+      </div>
+    </div>
+    <br />
+
+    <hr />
+
+    <div style="background-color: green" class="myClass">
+      <a href="#home">Button1&nbsp;</a>
+      <a href="#home">Button2&nbsp;</a>
+      <a href="#home">Button3&nbsp;</a>
+      <a href="#home">Button4&nbsp;</a>
+    </div>
+  </body>
+</html>

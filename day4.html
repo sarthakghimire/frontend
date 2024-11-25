@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model</title>
+
+    <style>
+      /* Important for responsiveness*/
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      /* * {
+        padding: 56px;
+        border: 19px solid black;
+        margin: 56px;
+      }
+      div {
+        padding: 20px;
+        border: 1px solid black;
+        margin: 20px;
+      }
+      #myDiv {
+        padding: 30px;
+        border: 3px solid blue;
+        margin: 30px;
+      }
+      /* #myDiv {
+        padding: 2px;
+        border: 2px solid pink !important;
+        margin: 50px;
+      } */
+      /* .myDivision {
+        padding: 17px;
+        border: 4px solid yellow;
+        margin: 13px;
+      } */
+
+      .container {
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid blue;
+        width: 300px;
+      }
+
+      .class {
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="margin: 5px; padding: 3px; border: 10px solid skyblue"
+      id="myDiv"
+      class="myDivision"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus temporibus
+      sapiente repellendus ducimus animi dolore quasi debitis. Quibusdam esse
+      earum soluta deleniti cum doloribus facere, saepe, sit, sunt provident
+      libero.
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <div class="profileImage">
+          <div class="image"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

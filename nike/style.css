@@ -1,0 +1,56 @@
+ul {
+  list-style-type: none;
+}
+.classicContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.CSC {
+  height: 300px;
+  width: 200px;
+}
+.sContainer {
+  display: flex;
+  justify-content: center;
+  align-items: centre;
+  height: 100vh;
+}
+span {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+}
+#text1,
+#button1,
+#dContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  border-radius: 15px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+#navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a#top:hover {
+  text-decoration: dashed;
+  color: black;
+}
