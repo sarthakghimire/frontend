@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#topButton button {
+  background-color: rgb(83, 83, 147);
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+#topButton button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+hr {
+  border: double black;
+}
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+}
