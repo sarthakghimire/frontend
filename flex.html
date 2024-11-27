@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .parentContainer {
+        display: flex;
+        border: 1px solid blue;
+        height: 300px;
+        padding: 10px;
+        /* justify-content: flex-end; */
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* REVISE BASELINE ON DIFFERENT DIV SIZES */
+      }
+      .children {
+        border: 1px solid red;
+        height: 100px;
+      }
+      #shrink1 {
+        flex-shrink: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div id="shrink1" class="children">First Children</div>
+      <div class="children">Second Children</div>
+      <div class="children">Third Children</div>
+      <div class="children">Fourth Children</div>
+      <div class="children">Fifth Children</div>
+      <div class="children">Sixth Children</div>
+      <div class="children">Seventh Children</div>
+      <div class="children">Eighth Children</div>
+      <div class="children">Ninth Children</div>
+      <div class="children">Tenth Children</div>
+    </div>
+  </body>
+</html>
