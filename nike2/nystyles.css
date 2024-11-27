@@ -17,10 +17,22 @@ a {
   background-color: blue;
   cursor: pointer;
 }
-hr {
+hr.doubleLine {
   border: double black;
 }
 body {
   padding-left: 100px;
   padding-right: 100px;
+}
+.gameImage {
+  height: 100px;
+  width: 100px;
+}
+ul {
+  list-style: none;
+}
+.fcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
