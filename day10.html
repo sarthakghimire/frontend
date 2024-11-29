@@ -4,6 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stacking</title>
+    <style>
+      .relative {
+        position: relative;
+      }
+      .redGradient {
+        z-index: 1;
+        background-color: red;
+        top: 10px;
+        left: 20px;
+      }
+      .greenGradient {
+        z-index: 2;
+        top: 10px;
+        left: 30px;
+        background-color: green;
+      }
+      .blueGradient {
+        z-index: 3;
+        top: 10px;
+        left: 50px;
+        background-color: blue;
+      }
+      .card {
+        position: absolute;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="relative">
+      <div
+        class="card redGradient"
+        style="border: 1px solid red; height: 300px; width: 200px"
+      ></div>
+      <div
+        class="card greenGradient"
+        style="border: 1px solid green; height: 300px; width: 200px"
+      ></div>
+      <div
+        class="card blueGradient"
+        style="border: 1px solid blue; height: 300px; width: 200px"
+      ></div>
+    </div>
+  </body>
 </html>
